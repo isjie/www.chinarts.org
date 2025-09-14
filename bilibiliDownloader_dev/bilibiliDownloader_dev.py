@@ -32,7 +32,7 @@ ctk.set_default_color_theme("blue")
 class YuttoGUI(ctk.CTk):
     def __init__(self):
         super().__init__()
-        self.title("YUTTO GUI — B站下载器（非遗社区：www.chinarts.org）")
+        self.title("yutto GUI — B站下载器（非遗社区：www.chinarts.org）")
         self.geometry("1000x700")
         self.minsize(900, 600)
         self.protocol("WM_DELETE_WINDOW", self.on_close)
@@ -91,7 +91,7 @@ class YuttoGUI(ctk.CTk):
 
         ctk.CTkLabel(
             frame,
-            text="这是一个免费的软件，在PUTTO\n开源项目的基础上编写的可视化程序。\n了解更多请在github上搜索项目文档\n进行查看。",
+            text="这是一个免费的软件，在yutto\n开源项目的基础上编写的可视化程序。\n了解更多请在github上搜索项目文档\n进行查看。",
             font=("Arial", 14),
             text_color=ctk.ThemeManager.theme["CTkLabel"]["text_color"]
         ).pack(expand=True)
